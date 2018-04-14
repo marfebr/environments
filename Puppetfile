@@ -4,13 +4,13 @@
 forge "https://forgeapi.puppetlabs.com";
 
 mod 'marfebr-confsbase'
-#mod '<user_puppetforge>-memcached'
-#mod '<user_puppetforge>-mysqlserver'
+mod 'marfebr-memcached'
+mod 'marfebr-mysqlserver'
 
-#mod 'puppet-webserver',
-  #:git => 'https://github.com/<user_github>/puppet-webserver.git',
-  #:branch => 'homolog'
+mod 'puppet-webserver',
+  :git => 'https://github.com/marfebr/puppet-webserver.git',
+  :branch => 'homolog'
 
 #mod 'puppet-balancer',
-  #:git => 'https://github.com/<user_github>/puppet-balancer.git',
+  #:git => 'https://github.com/marfebr/puppet-balancer.git',
   #:branch => 'production'
