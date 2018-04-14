@@ -9,8 +9,8 @@ mod 'marfebr-mysqlserver'
 
 mod 'puppet-webserver',
   :git => 'https://github.com/marfebr/puppet-webserver.git',
-  :branch => 'homolog'
+  :branch => 'production'
 
-#mod 'puppet-balancer',
-  #:git => 'https://github.com/marfebr/puppet-balancer.git',
-  #:branch => 'production'
+mod 'puppet-balancer',
+  :git => 'https://github.com/marfebr/puppet-balancer.git',
+  :branch => 'production'
