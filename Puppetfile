@@ -4,6 +4,7 @@
 forge "https://forgeapi.puppetlabs.com";
 
 mod 'marfebr-confsbase'
+mod 'puppetlabs-motd'
 #mod '<user_puppetforge>-memcached'
 #mod '<user_puppetforge>-mysqlserver'
 
